@@ -1,0 +1,116 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>	
+	<style>
+		nav {
+			margin-right: 250px;
+		}
+	
+		nav ul {
+			list-style-type: none;
+		}
+		
+		nav ul li {
+			display:inline-block;
+			margin-left: 155px;
+			padding-top: 20px;
+			font-size: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+<a style="float: left; margin-left: 30px; margin-top: -15px;" class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a>
+<nav uk-dropnav="align: center">
+    <ul class="uk-subnav uk-flex-center">
+        <li>
+            <a href="#">Menu1</a>
+            <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+					<li style="display:block;"><a class="uk-text-left uk-card-body" href="#"><span class="uk-text-danger">NEW</span></a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="#">Menu2</a>
+            <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li style="display:block;"><a class="uk-text-left uk-card-body"href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+					<li style="display:block;"><a class="uk-text-left uk-card-body" href="#"><span class="uk-text-danger">NEW</span></a></li>
+				</ul>
+            </div>
+        </li>
+		<li>
+            <a href="#">Menu3</a>
+            <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+                    <li style="display:block;"><a class="uk-text-left uk-card-body" href="#">Item</a></li>
+					<li style="display:block;"><a class="uk-text-left uk-card-body" href="#"><span class="uk-text-danger">NEW</span></a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav> 
+<span style="float: right; margin-right: 80px; margin-top: -40px;" uk-icon="user">Иванов Иван&nbsp;&nbsp;&nbsp;</span>
+<div  uk-dropdown>
+    <ul class="uk-nav uk-dropdown-nav">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">EXIT</a></li>
+    </ul>
+</div>  
+<div style="padding-top: 30px;">  
+<h1 style="margin-left:500px;">Заголовок</h1>
+<p style="margin-left:500px;">Описание; Описание; Описание</p>
+<p style="margin-left:500px;">Описание; Описание; Описание</p>
+<p style="margin-left:500px;">Описание; Описание; Описание</p>
+</div>
+
+<div style="margin-left: 500px; padding-top: 40px;" class="uk-margin">
+        <div class="uk-form-controls">
+			<label style="font-size: 20px;" class="uk-form-label" for="form-horizontal-text">Text</label>&nbsp;&nbsp;
+            <input style="width: 300px;" class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+        </div>
+ </div>
+ 
+<div style="margin-left: 500px; padding-top: 20px;" class="uk-margin">
+        <div class="uk-form-controls">
+			<label style="font-size: 20px;" class="uk-form-label" for="form-horizontal-text">Text</label>&nbsp;&nbsp;
+            <input style="width: 300px;" class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+        </div>
+ </div>
+
+<div style="margin-left: 500px; padding-top: 20px;" class="uk-margin">
+        <div class="uk-form-controls">
+			<label style="font-size: 20px;" class="uk-form-label" for="form-horizontal-text">Text</label>&nbsp;&nbsp;
+            <input style="width: 300px;" class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+        </div>
+ </div>
+
+<div style="margin-left: 500px; padding-top: 40px;" class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label style="font-size: 20px;">A&nbsp;&nbsp;<input class="uk-checkbox" type="checkbox"></label>
+</div>
+
+<p style="margin-left: 500px; padding-top: 40px;" uk-margin>
+    <button style="background-color: #099cf7; width: 140px; border:none;" class="uk-button uk-button-default"><strong>Далее</strong></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button style="background-color: #099cf7; width: 140px; border:none;" class="uk-button uk-button-default"><strong>Далее</strong></button>
+</p>
+
+<p style="margin-left: 500px; padding-top: 40px;" uk-margin>
+    <button style="background-color: #099cf7; width: 140px; border:none;" class="uk-button uk-button-default"><strong>Далее</strong></button>
+</p>
+</body>
+</html>
